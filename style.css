@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#showImage{
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #f4f6f7;
+    color: #0b0303;
+    cursor: pointer;
+    border: 1px;
+}
+
+#image{
+    display: block;
+}
