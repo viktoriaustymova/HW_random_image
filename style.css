@@ -1,6 +1,9 @@
 .container{
-    text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #showImage{
@@ -12,8 +15,17 @@
     color: #0b0303;
     cursor: pointer;
     border: 1px;
+    margin-top: 20px;
+}
+
+.wrap{
+    max-width: 500px;
 }
 
 #image{
-    display: block;
+    height: 100%;
+    width: 100%;
 }
+
+
+
